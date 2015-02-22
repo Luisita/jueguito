@@ -239,7 +239,7 @@ tr, td{
     body {
         width: 100%;
     }
-    div.contenedor, div.contenedorderecha .score, div.contenedorderecha .score .izq{
+    div.contenedor, div.contenedorderecha .score, div.contenedorderecha .score .izq, div.contenedorderecha .lines{
         width: 100%
     }
     div.contenedorcanvas{
