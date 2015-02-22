@@ -15,7 +15,7 @@ div.contenedor
 
 div.contenedorcanvas
 {
-    width: 200px;
+    width: 150px;
     height: 420px;
     float: left;
     background: url('Images/fondocanvas.png');
@@ -25,7 +25,7 @@ div.contenedorcanvas
 
 div.contenedorderecha
 {
-    width: 100px;
+    width: 150px;
     height: 300px;
     float: left;
     font-size: 16px;      
@@ -36,7 +36,7 @@ div.contenedorderecha
 
 div.contenedorderecha .figura
 {    
-    width: 80px;
+    width: 120px;
     height: 60px;
     border: 3px solid #667799;
     margin-left: 8px;
@@ -51,7 +51,7 @@ div.contenedorderecha .figura .canvas
 
 div.contenedorderecha .score
 {
-    width: 80px;
+    width: 120px;
     height: 40px;
     margin-left: 8px;
     margin-top: 8px;
@@ -81,7 +81,7 @@ div.contenedorderecha .score .der
 
 div.contenedorderecha .jugar
 {
-    width: 80px;
+    width: 120px;
     height: 40px;
     background-color: #DDEEFF;
     border: 3px solid #667799;
@@ -98,7 +98,7 @@ div.contenedorderecha .jugar a
 
 div.contenedorderecha .controles
 {
-    width: 80px;
+    width: 120px;
     height: 125px;
     background-color: #DDEEFF;
     border: 3px solid #667799;
