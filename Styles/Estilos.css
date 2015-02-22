@@ -39,21 +39,21 @@ div.contenedorderecha .figura
     width: 80px;
     height: 60px;
     border: 3px solid #667799;
-    margin-left: 12px;
+    margin-left: 8px;
     background-color: #DDEEFF;
 }
 
 div.contenedorderecha .figura .canvas
 {
     margin-top: 10px;
-    margin-left: -5px;
+    margin-left: -15px;
 }
 
 div.contenedorderecha .score
 {
     width: 80px;
     height: 40px;
-    margin-left: 12px;
+    margin-left: 8px;
     margin-top: 8px;
     border: 3px solid #667799;
     background-color: #DDEEFF;
@@ -64,7 +64,7 @@ div.contenedorderecha .score .izq
     float: left;
     width: 30px;
     height: 40px; 
-    padding-right: 3px;   
+    padding-right:8px;   
     margin-left: 5px;
     line-height: 37px;
 }
@@ -85,7 +85,7 @@ div.contenedorderecha .jugar
     height: 40px;
     background-color: #DDEEFF;
     border: 3px solid #667799;
-    margin-left: 12px;
+    margin-left: 8px;
     margin-top: 8px;
     text-align: center;
     line-height: 37px;    
@@ -102,7 +102,7 @@ div.contenedorderecha .controles
     height: 125px;
     background-color: #DDEEFF;
     border: 3px solid #667799;
-    margin-left: 12px;
+    margin-left: 8px;
     margin-top: 8px;
 }
 
