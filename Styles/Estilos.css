@@ -46,7 +46,7 @@ div.contenedorderecha .figura
 div.contenedorderecha .figura .canvas
 {
     margin-top: 10px;
-    margin-left: -15px;
+    margin-left: -35px;
 }
 
 div.contenedorderecha .score
@@ -64,7 +64,7 @@ div.contenedorderecha .score .izq
     float: left;
     width: 30px;
     height: 40px; 
-    padding-right:8px;   
+    padding-right:15px;   
     margin-left: 5px;
     line-height: 37px;
 }
