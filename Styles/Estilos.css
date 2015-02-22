@@ -6,6 +6,7 @@
         Purpose of the stylesheet follows.
 */
 
+
 div.contenedor
 {
     width: 390px;
@@ -232,4 +233,27 @@ table, th, td {
 tr, td{
     padding: 5px;
     text-align: center;    
+}
+
+@media screen and (max-width: 150px) {
+    body {
+        width: 100%;
+    }
+    div.contenedor, div.contenedorderecha .score, div.contenedorderecha .score .izq{
+        width: 100%
+    }
+    div.contenedorcanvas{
+        width: 100%;
+    }
+    div.contenedorderecha{
+        width: 100%;
+    }
+    div.contenedorderecha .figura{
+        width: 100%;
+    }
+
+    img{
+        width: 100%;
+    }
+
 }
