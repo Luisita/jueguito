@@ -6,18 +6,17 @@
         Purpose of the stylesheet follows.
 */
 
-
 div.contenedor
 {
-    width: 200px;
-    height: 400px;
+    width: 420px;
+    height: 460px;
     *margin: 0 auto;
 }
 
 div.contenedorcanvas
 {
-    width: 180px;
-    height: 360px;
+    width: 200px;
+    height: 420px;
     float: left;
     background: url('Images/fondocanvas.png');
     
@@ -26,7 +25,7 @@ div.contenedorcanvas
 
 div.contenedorderecha
 {
-    width: 180px;
+    width: 100px;
     height: 300px;
     float: left;
     font-size: 16px;      
@@ -37,7 +36,7 @@ div.contenedorderecha
 
 div.contenedorderecha .figura
 {    
-    width: 100px;
+    width: 80px;
     height: 60px;
     border: 3px solid #667799;
     margin-left: 12px;
@@ -51,7 +50,7 @@ div.contenedorderecha .figura .canvas
 
 div.contenedorderecha .score
 {
-    width: 100px;
+    width: 80px;
     height: 40px;
     margin-left: 12px;
     margin-top: 8px;
@@ -80,7 +79,7 @@ div.contenedorderecha .score .der
 
 div.contenedorderecha .lines
 {
-    width: 100px;
+    width: 80px;
     height: 40px;
     margin-left: 12px;
     border-left: 3px solid #667799;
@@ -111,7 +110,7 @@ div.contenedorderecha .lines .der
 
 div.contenedorderecha .level
 {
-    width: 100px;
+    width: 80px;
     height: 40px;
     margin-left: 12px;
     border-left: 3px solid #667799;
@@ -142,7 +141,7 @@ div.contenedorderecha .level .der
 
 div.contenedorderecha .sonido
 {
-    width: 100px;
+    width: 80px;
     height: 40px;
     background-color: #DDEEFF;
     border: 3px solid #667799;
@@ -176,7 +175,7 @@ div.contenedorderecha .sonido .der
 
 div.contenedorderecha .jugar
 {
-    width: 100px;
+    width: 80px;
     height: 40px;
     background-color: #DDEEFF;
     border: 3px solid #667799;
@@ -193,7 +192,7 @@ div.contenedorderecha .jugar a
 
 div.contenedorderecha .controles
 {
-    width: 100px;
+    width: 80px;
     height: 125px;
     background-color: #DDEEFF;
     border: 3px solid #667799;
@@ -233,6 +232,4 @@ table, th, td {
 tr, td{
     padding: 5px;
     text-align: center;    
-}
-
 }
