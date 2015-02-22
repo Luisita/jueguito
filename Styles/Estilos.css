@@ -235,25 +235,25 @@ tr, td{
     text-align: center;    
 }
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 200px) {
     body {
-        width: 100%;
+        width: 50%;
     }
     div.contenedor, div.contenedorderecha .score, div.contenedorderecha .score .izq, div.contenedorderecha .lines{
-        width: 80%
+        width: 50%
     }
     div.contenedorcanvas{
-        width: 80%;
+        width: 50%;
     }
     div.contenedorderecha{
-        width: 80%;
+        width: 50%;
     }
     div.contenedorderecha .figura{
-        width: 80%;
+        width: 50%;
     }
 
     img{
-        width: 80%;
+        width: 50%;
     }
 
 }
