@@ -39,7 +39,7 @@ div.contenedorderecha .figura
     width: 80px;
     height: 60px;
     border: 3px solid #667799;
-    margin-left: 2px;
+    margin-left: 12px;
     background-color: #DDEEFF;
 }
 
@@ -61,8 +61,9 @@ div.contenedorderecha .score
 div.contenedorderecha .score .izq
 {
     float: left;
-    width: 50px;
-    height: 40px;    
+    width: 30px;
+    height: 40px; 
+    padding-right: 3px;   
     margin-left: 5px;
     line-height: 37px;
 }
