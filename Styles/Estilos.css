@@ -9,15 +9,15 @@
 
 div.contenedor
 {
-    width: 390px;
-    height: 460px;
+    width: 200px;
+    height: 400px;
     *margin: 0 auto;
 }
 
 div.contenedorcanvas
 {
-    width: 200px;
-    height: 420px;
+    width: 180px;
+    height: 360px;
     float: left;
     background: url('Images/fondocanvas.png');
     
@@ -26,7 +26,7 @@ div.contenedorcanvas
 
 div.contenedorderecha
 {
-    width: 200px;
+    width: 180px;
     height: 300px;
     float: left;
     font-size: 16px;      
@@ -37,7 +37,7 @@ div.contenedorderecha
 
 div.contenedorderecha .figura
 {    
-    width: 160px;
+    width: 100px;
     height: 60px;
     border: 3px solid #667799;
     margin-left: 12px;
@@ -51,7 +51,7 @@ div.contenedorderecha .figura .canvas
 
 div.contenedorderecha .score
 {
-    width: 160px;
+    width: 100px;
     height: 40px;
     margin-left: 12px;
     margin-top: 8px;
@@ -80,7 +80,7 @@ div.contenedorderecha .score .der
 
 div.contenedorderecha .lines
 {
-    width: 160px;
+    width: 100px;
     height: 40px;
     margin-left: 12px;
     border-left: 3px solid #667799;
@@ -111,7 +111,7 @@ div.contenedorderecha .lines .der
 
 div.contenedorderecha .level
 {
-    width: 160px;
+    width: 100px;
     height: 40px;
     margin-left: 12px;
     border-left: 3px solid #667799;
@@ -142,7 +142,7 @@ div.contenedorderecha .level .der
 
 div.contenedorderecha .sonido
 {
-    width: 160px;
+    width: 100px;
     height: 40px;
     background-color: #DDEEFF;
     border: 3px solid #667799;
@@ -176,7 +176,7 @@ div.contenedorderecha .sonido .der
 
 div.contenedorderecha .jugar
 {
-    width: 160px;
+    width: 100px;
     height: 40px;
     background-color: #DDEEFF;
     border: 3px solid #667799;
@@ -193,7 +193,7 @@ div.contenedorderecha .jugar a
 
 div.contenedorderecha .controles
 {
-    width: 160px;
+    width: 100px;
     height: 125px;
     background-color: #DDEEFF;
     border: 3px solid #667799;
@@ -234,26 +234,5 @@ tr, td{
     padding: 5px;
     text-align: center;    
 }
-
-@media screen and (max-width: 200px) {
-    body {
-        width: 50%;
-    }
-    div.contenedor, div.contenedorderecha .score, div.contenedorderecha .score .izq, div.contenedorderecha .lines{
-        width: 50%
-    }
-    div.contenedorcanvas{
-        width: 50%;
-    }
-    div.contenedorderecha{
-        width: 50%;
-    }
-    div.contenedorderecha .figura{
-        width: 50%;
-    }
-
-    img{
-        width: 50%;
-    }
 
 }
