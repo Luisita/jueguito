@@ -46,6 +46,7 @@ div.contenedorderecha .figura
 div.contenedorderecha .figura .canvas
 {
     margin-top: 10px;
+    margin-left: -5px;
 }
 
 div.contenedorderecha .score
